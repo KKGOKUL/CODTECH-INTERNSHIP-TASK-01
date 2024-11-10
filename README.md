@@ -40,24 +40,24 @@ ________________________________________________________________________________
 
 ## Code Structure
 
-###scan_open_ports(target): Scans the target IP for open ports in the COMMON_PORTS list. Open ports are identified and listed in the output.
+### scan_open_ports(target): Scans the target IP for open ports in the COMMON_PORTS list. Open ports are identified and listed in the output.
 
-###check_http_headers(url): Checks for the presence of HTTP security headers on the specified URL, warning the user if any are missing.
+### check_http_headers(url): Checks for the presence of HTTP security headers on the specified URL, warning the user if any are missing.
 
-###check_software_versions(): Examines the local Python version and provides a warning if it's outdated.
+### check_software_versions(): Examines the local Python version and provides a warning if it's outdated.
 
-###vulnerability_scanner(target, url): Combines the above steps in sequence to perform a full vulnerability scan on the target.
+### vulnerability_scanner(target, url): Combines the above steps in sequence to perform a full vulnerability scan on the target.
 ________________________________________________________________________________________________________________________________________________________________________
 
 ## Potential Enhancements
 
-###Extend the list of COMMON_PORTS or dynamically scan a larger range of ports.
+### Extend the list of COMMON_PORTS or dynamically scan a larger range of ports.
 
-###Add checks for more software versions or vulnerabilities.
+### Add checks for more software versions or vulnerabilities.
 
-###Save scan results to a file for record-keeping and further analysis.
+### Save scan results to a file for record-keeping and further analysis.
 
-###Implement multi-threading for faster scanning on larger networks.
+### Implement multi-threading for faster scanning on larger networks.
 ________________________________________________________________________________________________________________________________________________________________________
 
 # Example Output
